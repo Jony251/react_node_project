@@ -2,6 +2,7 @@
     padding: 20px;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
+    min-height: 80vh;
 }
 
 .mainPageTitle {
@@ -16,6 +17,7 @@
     flex-wrap: wrap; 
     gap: 20px; 
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .gameCard {

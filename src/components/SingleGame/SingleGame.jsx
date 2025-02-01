@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import styles from './SingleGame.module.css';
 
 /**
@@ -11,7 +11,6 @@ import styles from './SingleGame.module.css';
 function SingleGame() {
     const location = useLocation();
 	const game = location.state?.post;
-	console.log(game);
 
     return (
         <section className={styles.game}>

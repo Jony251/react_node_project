@@ -1,10 +1,11 @@
 import React from 'react'
-import "./Footer.module.css"
+import styles from "./Footer.module.css"
+
 function Footer() {
   return (
-		 <footer className="footer">
-            <p>Copyright &copy; 2025 Evgeny Nemchenko</p>
-        </footer>
+    <footer className={styles.footer}>
+      <p className={styles.copyright}>Copyright &copy; 2025 Evgeny Nemchenko</p>
+    </footer>
   )
 }
 
